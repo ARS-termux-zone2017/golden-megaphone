@@ -1,8 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h2>iOS App Installer</h2>
-    <p><a href="itms-services://?action=download-manifest&url=https://ARS-termux-zone2017.github.io/golden-megaphone/manifests/DemoApp_1.0.plist">Install Megaphone 1.0</a></p>
-    <p>👉 AR-ABIR own signed .ipa file</p>
-  </body>
-</html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoMessenger ইনস্টল করুন</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin-top: 50px; 
+            background-color: #f0f2f5; 
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #28a745; /* সবুজ রঙ */
+            margin-bottom: 25px;
+        }
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 25%; /* গোল কোণা */
+            margin-bottom: 25px;
+            border: 1px solid #ddd;
+        }
+        .install-link {
+            display: inline-block;
+            padding: 18px 35px;
+            font-size: 22px;
+            color: #fff;
+            background-color: #007bff; /* নীল রঙ */
+            border-radius: 50px; /* গোলাকার বাটন */
+            text-decoration: none;
+            margin-top: 30px;
+            box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .install-link:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .note {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MotoMessenger অ্যাপ ইনস্টল করুন</h1>
+        <img src="https://yourdomain.com/icons/AppIcon.png" alt="MotoMessenger Icon" class="app-icon">
+        <p>আপনার iOS ডিভাইসে MotoMessenger অ্যাপটি সরাসরি ইনস্টল করতে নিচের বাটনে ক্লিক করুন।</p>
+        <p>এটি iOS 10.0 বা তার উপরের ভার্সনের জন্য ডিজাইন করা হয়েছে।</p>
+        
+        <!-- এই হলো ইনস্টল লিংক, এটি manifest.plist ফাইলকে নির্দেশ করে -->
+        <a href="itms-services://?action=download-manifest&url=https://yourdomain.com/manifests/MotoMessenger_v1.0.plist" class="install-link">
+            MotoMessenger ইনস্টল করুন
+        </a>
+        
+        <p class="note">ইনস্টল করার সময় কোনো সমস্যা হলে, অনুগ্রহ করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন এবং নিশ্চিত করুন যে আপনার ডিভাইসটি Ad-Hoc ডিস্ট্রিবিউশনের জন্য প্রস্তুত।</p>
+    </div>
+</body>
+  </html>
