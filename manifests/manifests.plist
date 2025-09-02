@@ -12,7 +12,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://yourdomain.com/apps/MotoMessenger_v1.0.ipa</string>
+                    <string>https://raw.githubusercontent.com/ARS-termux-zone2017/golden-megaphone/refs/heads/main/Megaphone.AR.ipa</string>
                 </dict>
                 <dict>
                     <key>kind</key>
